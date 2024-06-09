@@ -1,8 +1,6 @@
 from tkinter import *
 from tkinter import messagebox
-from tkinter import ttk # Theme of TK
-
-# SONGLINE LIB
+from tkinter import ttk
 import csv
 from datetime import datetime
 # DATABASE
@@ -17,11 +15,12 @@ def writecsv(record_list):
 
 GUI = Tk()
 
-GUI.title('โปรแกรมซ่อมบำรุง by Loong')
+GUI.title('โปรแกรมซ่อมบำรุง v.0.0.1 by Loong')
 GUI.geometry('800x600+50+50')
 ####FONT#####
 FONT1 = ('Angsana New',20,'bold')
 FONT2 = ('Angsana New',15)
+FONT3 = ('Angsana New',13)
 
 #######TAB#######
 Tab = ttk.Notebook(GUI)
